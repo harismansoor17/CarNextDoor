@@ -1,0 +1,13 @@
+nav {
+  border-bottom: 1px solid var(--dim-gray);
+  height: 100%;
+  z-index: 0;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
