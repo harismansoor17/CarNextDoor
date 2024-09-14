@@ -5,6 +5,7 @@
   padding: 0;
   font-family: "Poppins", system-ui;
   color: var(--night);
+  box-sizing: border-box;
 }
 
 :root {
@@ -16,7 +17,7 @@
 }
 
 body {
-  background-color: #ffffffff;
+  background-color: var(--night);
   overflow-x: hidden;
 }
 img {

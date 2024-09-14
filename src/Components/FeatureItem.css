@@ -1,0 +1,26 @@
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    width: 25%;
+    border: 5px solid var(--night);
+    padding: 12px 22px;
+    border-radius: 12px;
+    transition: border-radius 0.2s ease;
+}
+.feature-item:hover{
+    border-radius: 0px;
+}
+.feature-item span{
+    font-size: 2rem;
+}
+.feature-item p{
+    font-size: 1.2rem;
+    
+}
+.feature-item span,
+.feature-item p{
+    color: var(--night);
+
+}

@@ -1,0 +1,29 @@
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid var(--night);
+  width: 100vw;
+  position: relative;
+  padding: 32px;
+  background-color: #ffffff;
+}
+.wheel1 {
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+}
+.wheel2 {
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+}
+
+.wheel1 img,
+.wheel2 img{
+  height: 300px;
+}
+
+.wheel2 img{
+  transform: rotateY(180deg);
+}

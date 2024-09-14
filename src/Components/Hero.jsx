@@ -4,8 +4,8 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <main>
-      <section >
+    <main className="hero-main">
+      <section className="hero-section">
         <h1>Need A RIDE!!</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni

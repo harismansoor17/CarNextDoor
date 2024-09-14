@@ -11,19 +11,22 @@ const Navbar = () => {
         
           <Button
             title="Home"
+            textColor="white"
             bgColor="transparent"
-            btnBorder="3px solid var(--engineering-orange)"
+            btnBorder="3px solid white"
           />
           <CustomDropDown />
           <Button
             title="About Us"
+            textColor="white"
             bgColor="transparent"
-            btnBorder="3px solid var(--engineering-orange)"
+            btnBorder="3px solid white"
           />
           <Button
             title="Contact Us"
+            textColor="white"
             bgColor="transparent"
-            btnBorder="3px solid var(--engineering-orange)"
+            btnBorder="3px solid white"
           />
         
       </nav>
